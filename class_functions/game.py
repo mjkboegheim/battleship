@@ -123,7 +123,7 @@ class Field:
     def __init__(self, index, fieldNumber):
         self.index = index
         self.fieldNumber = fieldNumber
-        self.content = "-"
+        self.content = "≈"
         self.hit = False
         self.filled = False
         self.shipName = ""
